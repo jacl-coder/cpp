@@ -14,7 +14,7 @@ void solve()
     cin >> n >> q;
     string s;
     cin >> s;
-    vector v(3, vector<set<int>>(3));
+    vector<std::vector<std::set<int>>> v(3, vector<set<int>>(3));
     vector<int> x(q), y(q);
     for (int i = 0; i < q; i++)
     {
